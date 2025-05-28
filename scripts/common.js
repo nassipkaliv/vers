@@ -915,7 +915,8 @@ $(document).on('keydown', function (e) {
 $(document).on('click', '.js-close-popup', function () {
   var $popup = $(this).closest('.address-popup');
   if ($popup.length) {
-    $popup.addClass('d-none');
+    $popup.hide();
   }
 });
+
 
